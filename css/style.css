@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Merriweather+Sans:ital,wght@0,400;0,500;0,700;1,700&family=Righteous&family=Roboto&family=Sarala:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body {
+    font-size: 100%;
+    background: black;
+    
+}
+
+.TopHeader {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+    padding: 18px;
+}
+
+.TopHeaderImage {
+    height: 36px;
+}
+
+.HeaderMenu {
+    display: flex;
+    gap: 32px;
+}
+.HeaderMenuItem {
+    font-family: 'Sarala', sans-serif;
+    color: #606060;
+    font-weight: 400;
+    font-size: 12px;
+    
+}
+
+.contentMain {
+    margin-bottom: 48px;
+    padding-top: 48px;
+}
+
+.MainContentImage {
+    height: 500px;
+}
+
+.MainContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.MainContentWritten {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: 'Sarala' sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #c9c9c9;
+    display: flex;
+    padding-bottom: 12px;
+}
+
+.MainContentWrittenTittle {
+    font-family: 'Righteous' cursive;
+    font-weight: 800;
+    font-size: 52px;
+    background-image: linear-gradient(68.15deg, #8F63F2 16.62%, #71EEAE 85.61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    display: flex;
+}
+
+
+.MainContentWrittenButton {
+    background-color: #202020;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-image: linear-gradient(68.15deg, #111111 16.62%, #1f1f1f 85.61%);
+    border-radius: 20px;
+    color: rgba(90, 233, 150, 0.774);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.SecundaryContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 18px;
+}
+
+.SecundaryContentTittle {
+    padding-top: 42px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color:#c9c9c9;
+    margin-bottom: 8px;
+}
+
+.Footermenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding: 140px 600px 16px 600px;
+    font-family: 'Righteous', cursive;
+    font-weight: 100;
+    font-size: 14px;
+    color: #606060;
+
+}
